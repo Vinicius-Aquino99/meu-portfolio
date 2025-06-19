@@ -1,0 +1,41 @@
+.sobre {
+  width: 100%;
+  padding: 5rem 2rem;
+  background-color: var(--preto);
+  display: flex;
+  justify-content: center;
+}
+
+.container-sobre {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.colunaDireita, .colunaEsquerda {
+  flex: 1 1 45%;
+  color: var(--branco);
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.colunaEsquerda p::first-letter,
+.colunaDireita p::first-letter {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--amarelo);
+  float: left;
+  line-height: 1;
+  padding-right: 0.2rem;
+  font-family: "Fredoka", sans-serif;
+}
+
+.amarelo {
+  color: var(--amarelo);
+}
